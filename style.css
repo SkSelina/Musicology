@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+#navigation-part{
+    width: 100%;
+    float: left;
+    color:#fff;
+}
+.container1{
+ width: 90%;
+ margin: auto;
+}
+.global-heading{
+    font-size: 30px;
+    padding: 20px;
+}
+header{
+    width: 100%;
+    float: left;
+    background-color: #303030;
+}
+.logo-part{
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+.menu-part{
+    width: 50%;
+    float: left;
+    padding: 10px 5px;
+    text-align: end;
+}
+.menu-part li{
+    display: inline-block;
+    padding: 0px 5px;
+    margin: 5px;
+}
+.menu-part li a{
+    color: #fff;
+}
+.search-icon{
+    width: 20%;
+    float: left;
+    padding: 10px 10px 30px 5px;
+    text-align: end;
+}
+#hero-part{
+    background-image:url(hero.png);
+    background-size: cover;
+    background-position: right;
+    color: #fff;
+    width: 100%;
+    float: left;
+    padding: 100px 10px;
+
+}
+.hero-writing-part{
+    width: 50%;
+    float: left;
+}
+.container{
+    width: 90%;
+    float: left;
+}
+.pera{
+    font-size: 20px;
+    font-weight: 200;
+    padding: 5px 10px;
+}
+.btn{
+    background-color:#e8631c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 1px solid #eb5317;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: #fff;
+    color:black ;
+}
+/* dance section */
+#dance-part{
+    background-image: url(dance-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    padding: 60px 60px;
+    text-align: center;
+    color: #fff;
+}
+.container{
+    width: 90%;
+    float: left;
+}
+.dance-writing-part{
+    font-size: 20px;
+    font-weight: 200;
+}
+.pera1{
+    font-size: 10px;
+}
+.dance-box-part{
+    width: 100%;
+    float: left;
+
+}
+.dance-box{
+    width: 33%;
+    float: left;
+    padding: 10px 5px;
+}
+.dance-box img{
+    height: 300px;
+    width: 200px;
+    padding: 10px 10px;
+    margin: auto;
+
+}
+/* price section */
+#price-part{
+    background-image: url(price-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    padding: 60px 60px;
+    text-align: center;
+    color: #fff;
+}
+.container{
+    width: 90%;
+    float: left;
+}
+.price-writing-part{
+    font-size: 20px;
+    font-weight: 200;
+}
+.pera1{
+    font-size: 10px;
+}
+.price-box-part{
+    width: 100%;
+    float: left;
+
+}
+.price-box{
+    width: 33%;
+    float: left;
+    padding: 10px 30px;
+}
+.price-box img{
+    height: 300px;
+    width: 200px;
+    padding: 10px 10px;
+}
+/* amazing section */
+#amazing-part{
+    background-image: url(amazing-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;
+}
+.amazing-box-part{
+    width: 100%;
+    float: left;
+}
+.amazing-box{
+    width: 50%;
+    float: left;
+}
+.amazing-box img{
+    width: 100%;
+} 
+.amazing-writing-part{
+    width: 50%;
+    float: left;
+}
+.writing-part{
+    width: 100%;
+    float: left;
+    padding: 205px 20px;
+    margin: auto;
+}
+.pera2{
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px 0px;
+}
+
+.btn1{
+    background-color: #303030;
+    color: #fff;
+    border-radius: 1px solid #201f1f;
+    text-transform: uppercase;
+    padding: 10px 10px;
+}
+/* statistic section */
+#statistic-part{
+    background-color: #303030;
+    color: #fff;
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    text-align: center;
+}
+.statistic-writing-part{
+    width: 100%;
+    float: left;
+}
+.pera3{
+    font-size: 10px;
+    padding-bottom: 60px;
+}
+.statistic-box-part{
+    width: 100%;
+    float: left;
+}
+.statistic-box{
+    width: 33.33%;
+    float: left;
+    padding: 10px 10px;
+}
+.statistic-box h3{
+    font-size: 15px;
+    padding: 10px 0px;
+}
+.statistic-box img{
+    width: 80px;
+}
+/* herbart section */
+#herbert-part{
+    background-image:url(herbert.png) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 200px 20px;
+    color: #fff;
+}
+.herbert-writing-part{ 
+    width: 100%;
+    float: left;
+}
+.pera4{
+    font-size: 15px;
+}
+/* subscribe section */
+#subscribe-part{
+    background-image: url(dance-bg.png);
+    background-position: right left;
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+}
+.subscribe-writing-part{
+    width: 100%;
+    float: left;
+}
+.pera5{
+    font-size: 10px;
+    padding: 15px 0px;
+}
+.email{
+    padding: 0px 5px;
+    text-transform: capitalize;
+}
+.btn2{
+    background-color: #303030;
+    color: #fff;
+    padding: 0px 5px;
+    text-transform: uppercase;
+}
+/* other section */
+#other-part{
+    background-color: #303030;
+    color: #fff;
+    padding: 60px 0px;
+    width: 100%;
+    float: left;
+}
+.other-box-part{
+    width: 100%;
+    float: left;
+}
+.other-box{
+    width: 40%;
+    float:left;
+    padding: 20px 0px;
+}
+.pera6{
+    font-size: 10px;
+    font-weight: 100px;
+    padding: 10px 20px;
+    width: 80%;
+}
+.other-box1{
+    width: 20%;
+    float: left;
+    padding: 20px 0px;
+    margin: auto;
+}
+.other-box1 p{
+    font-size: 5px;
+    padding: 0px 20px;
+    font-weight: 400;
+}
+.fav-icon{
+    padding: 0px 20px;
+
+}
